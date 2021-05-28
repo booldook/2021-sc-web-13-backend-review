@@ -1,0 +1,26 @@
+<%- include('../inc/head') %> 
+<%- include('../inc/header') %> 
+<link rel="stylesheet" href="/css/gbook.css">
+<div class="gbook-wrapper wrapper">
+	<form action="/gbook/save" method="POST" class="form-inline">
+		<input type="text" name="content" class="form-control" placeholder="한줄 내용을 입력하세요." autofocus>
+		<button class="btn btn-primary">등록</button>
+	</form>
+	<table class="table">
+		<thead class="thead-dark">
+			<tr>
+				<th>번호</th>
+				<th>내용</th>
+				<th>등록일</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% for(let v of gbook) { %>
+				<%- include('./list', { v }) %> 
+			<% } %> 
+		</tbody>
+	</table>
+</div>
+<script src="/js/gbook.js"></script>
+<%- include('../inc/footer') %> 
+<%- include('../inc/foot') %> 

@@ -1,0 +1,6 @@
+.gbook-wrapper {}
+.gbook-wrapper form input[name="content"] {flex-grow: 1; margin-right: .5em;}
+.gbook-wrapper .table {margin: 1em 0;}
+.gbook-wrapper .table td:nth-child(1) {width: 10%; text-align: center;}
+.gbook-wrapper .table td:nth-child(2) {width: 60%;}
+.gbook-wrapper .table td:nth-child(3) {width: 30%; text-align: center;}

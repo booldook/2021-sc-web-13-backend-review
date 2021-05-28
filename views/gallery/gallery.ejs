@@ -1,0 +1,12 @@
+<%- include('../inc/head') %> 
+<%- include('../inc/header') %> 
+<link rel="stylesheet" href="/css/gallery.css">
+<div class="wrapper gallery-wrapper">
+	<div class="list-wrapper">
+		<% for(let v of gallery) { %>
+			<%- include('./list', { v }) %> 
+		<% } %> 
+	</div>
+</div>
+<%- include('../inc/footer') %> 
+<%- include('../inc/foot') %> 

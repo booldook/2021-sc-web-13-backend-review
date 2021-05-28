@@ -1,0 +1,5 @@
+.header-wrapper {background-color: #333; color: #fff; display: flex; justify-content: space-between;}
+.header-wrapper > .logo {font-size: 1.25em; padding: 1em;}
+.header-wrapper .navi-wrap {display: flex;}
+.header-wrapper .navi {padding: 1.25em; transition: all .3s;}
+.header-wrapper .navi:hover {background-color: beige; color: #333;}

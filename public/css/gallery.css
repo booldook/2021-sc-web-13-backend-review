@@ -1,0 +1,4 @@
+.gallery-wrapper {}
+.gallery-wrapper .list-wrapper {display: flex; flex-wrap: wrap;}
+.gallery-wrapper .list-wrapper .list {width: 25%; padding: 1%;}
+.gallery-wrapper .list-wrapper .list .title {padding: .5em 0; font-size: 1.5em; border-bottom: 1px solid #eee;}
